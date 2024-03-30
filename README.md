@@ -1,6 +1,6 @@
 # PECCON-25 Website 🌳
 
-Welcome to the official website for the PECCON-25 International Conference! This website is designed and developed by Ramakrishnan(me) and Sushindh to provide comprehensive information about the conference, including details about the event, speakers, schedule, and registration process.
+Welcome to the official website for the PECCON-25 International Conference! This website is designed and developed by Ramakrishnan(me) and Sushindh(https://github.com/Sushindh) to provide comprehensive information about the conference, including details about the event, speakers, schedule, and registration process.
 
 ## About PECCON-25
 
