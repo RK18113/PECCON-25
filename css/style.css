@@ -1,0 +1,579 @@
+/* 2xl */
+@media (max-width: 1965px) {
+.uni-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 128px 10px 128px;
+}
+
+.navbar-brand{   
+    margin-right:25%;
+}
+
+#top-btn{
+    margin-left:auto;
+}
+/* navigation bar */
+#registerBtn {
+    margin-right: 10px;
+}
+
+/* common styles */
+.para {
+    font-size: 2.5vh;
+    text-align: center;
+}
+
+.title {
+    font-size: 4vh;
+    text-align: center;
+    font-weight: 700;
+}
+
+.moto {
+    font-size: 3vh;
+    text-align: center;
+}
+
+.img {
+    padding: 5%;
+    width: 100%;
+}
+
+/* introduction section */
+.container-1 {
+    position: relative;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-image: url("../images/nature.jpg");
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: background-size 0.5s ease; 
+}
+
+.container-1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.3); /* Adjust the opacity as needed */
+}
+
+.container-1:hover {
+    background-size: 110%; /* Change the background-size on hover */
+}
+
+.outer-box-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.heading-1 {
+    font-size: 5vh;
+    text-align: center;
+    font-weight: 500;
+}
+
+.heading-2 {
+    font-size: 4.5vh;
+    text-align: center;
+}
+
+.heading-3 {
+    margin-top: 10px;
+    margin-bottom: 2%;
+    font-size: 4.75vh;
+    text-align: center;
+    font-weight: bold;
+}
+
+.outer-box-2 {
+    display: flex;
+    justify-content: center;
+    width: 45%;
+}
+
+/* welcome section */
+.outer-box-3 {
+    width: 100%;
+    margin-top: 2%;
+}
+
+/* theme section */
+.outer-box-4 {
+    display: flex;
+    align-items: center;
+    width: 55%;
+}
+
+.outer-box-5 {
+    display: flex;
+    justify-content: center;
+    width: 45%
+}
+
+/* important dates section */
+.container-4{
+    justify-content: space-between;
+    gap: 2%;
+    /* background-color: aqua; */
+}
+
+.imp-dates-title{
+    font-size: 4vh;
+    text-align: center;
+    width: 100%;
+}
+
+.date-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.date { /* temp box for dates */
+    height: 300px;
+    width: 300px;
+    background-color: gray;
+}
+
+/* objective section */
+.outer-box-6{
+    display: flex;
+    justify-content: center;
+    width: 45%
+}
+
+.outer-box-7{
+    display: flex;
+    align-items: center;
+    width: 55%;
+}
+
+/* scientific sessions */
+.outer-box-9{ /* temp placeholder */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.ssimg{
+    height: 250px;
+    width: 250px;
+}
+
+/* proceedings and publications section */
+.outer-box-10{
+    width: 100%;
+}
+
+.outer-box-11 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.ppimg{
+    height: 100px;
+    width: 150px;
+}
+
+/* speakers section */
+.outer-box-12 {
+    width: 100%;
+}
+
+.outer-box-13{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.spk-box{
+    height: 400px;
+    width: 300px;
+}
+
+.spk-img-box{
+    height: 60%;
+    width: 100%;
+}
+
+.spk-text-box{
+    height: 40%;
+    width: 100%;
+}
+
+/* our associates section */
+.outer-box-14 {
+    width: 100%;
+}
+
+.outer-box-15 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.associates-img{
+    height: 100px;
+    width: 150px;
+}
+}
+
+
+
+/* xl */
+@media (max-width: 1280px) {
+.uni-container {
+    padding: 10px 90px 10px 90px;
+    background-color: blanchedalmond;
+}
+
+.navbar-brand{   
+    margin-right:15%;
+}
+
+/* introduction section */
+.container-1{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.heading-1 {
+    font-size: 5vh;
+    text-align: center;
+    font-weight: 600;
+}
+
+.heading-2 {
+    font-size: 3.5vh;
+    text-align: center;
+}
+
+.heading-3 {
+    margin-top: 10px;
+    font-size: 3.75vh;
+}
+
+.outer-box-2{
+    align-items: center;
+}
+
+.intro-img{
+    width: 100%;
+    height: 80%;
+}
+
+/* proceedings and publication section */
+.outer-box-11{
+    padding-left: 100px;
+    padding-right: 100px;
+    row-gap: 20px;
+}
+}
+
+
+
+
+/* lg */
+@media (max-width: 1024px) {
+.uni-container {
+    padding: 10px 60px 10px 60px;
+    background-color: aquamarine;
+}
+
+#registerBtn {
+    margin-bottom: 5px;
+}
+
+.para {
+    font-size: 2.2vh;
+}
+
+.title {
+    font-size: 3.5vh;
+}
+
+.moto {
+    font-size: 2.5vh;
+}
+
+.img {
+    padding: 5%;
+    width: 100%;
+}
+
+/* introduction section */
+.container-1{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.outer-box-1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.heading-1 {
+    font-size: 5vh;
+    font-weight: 600;
+}
+
+.heading-2 {
+    font-size: 3.5vh;
+}
+
+.heading-3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 3.75vh;
+}
+
+.outer-box-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+
+.intro-img{
+    width: 80%;
+    height: 400px;
+}
+
+/* theme section */
+.theme-img{
+    width: 80%;
+    height: 400px;
+}
+
+.outer-box-4 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.outer-box-5 {
+    align-items: center;
+    width: 100%;
+}
+
+/* objective section */
+.outer-box-6{
+    align-items: center;
+    width: 100%;
+}
+
+.outer-box-7{
+    width: 100%;
+}
+
+.objective-img{
+    width: 80%;
+    height: 400px;
+}
+
+/* scientific sessions */
+.outer-box-9{ /* temp placeholder */
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 30px;
+}
+}
+
+
+
+
+/* md */
+@media (max-width: 768px) {
+.uni-container {
+    padding: 10px 40px 10px 40px;
+    background-color: aqua;
+}
+
+/* common styles */
+.para {
+    font-size: 2vh;
+}
+
+.title {
+    font-size: 3.5vh;
+    text-align: center;
+    font-weight: 600;
+}
+
+.moto {
+    font-size: 3vh;
+    text-align: center;
+}
+
+.img {
+    padding: 5%;
+    width: 100%;
+}
+
+/* introduction section */
+.container-1{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.outer-box-1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.heading-1 {
+    font-size: 5vh;
+    font-weight: 600;
+}
+
+.heading-2 {
+    font-size: 3.5vh;
+}
+
+.heading-3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 3.75vh;
+}
+
+.outer-box-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+
+.intro-img{
+    width: 80%;
+    height: 350px;
+}
+
+/* theme section */
+.theme-img{
+    width: 80%;
+    height: 350px;
+}
+
+.outer-box-4 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.outer-box-5 {
+    align-items: center;
+    width: 100%;
+}
+
+/* objective section */
+.outer-box-6{
+    align-items: center;
+    width: 100%;
+}
+
+.outer-box-7{
+    width: 100%;
+}
+
+.objective-img{
+    width: 80%;
+    height: 350px;
+}
+}
+
+
+
+/* sm */
+@media (max-width: 640px) {
+.uni-container {
+    background-color: antiquewhite;
+}
+
+/* common styles */
+.para {
+    font-size: 2vh;
+}
+
+.title {
+    font-size: 3.5vh;
+    text-align: center;
+    font-weight: 600;
+}
+
+.moto {
+    font-size: 3vh;
+    text-align: center;
+}
+
+.img {
+    padding: 5%;
+    width: 100%;
+}
+/* introduction section */
+.container-1{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.heading-1 {
+    font-size: 4vh;
+    font-weight: 500;
+}
+
+.heading-2 {
+    font-size: 3vh;
+}
+
+.heading-3 {
+    margin-top: 0px;
+    margin-bottom: 0%;
+    font-size: 3.5vh;
+}
+
+.intro-img{
+    width: 80%;
+    height: 300px;
+}
+
+/* theme section */
+.outer-box-5{
+    align-items: center;
+}
+
+.theme-img{
+    width: 80%;
+    height: 300px;
+}
+
+/* objective section */
+.outer-box-6{
+    align-items: center;
+}
+
+.objective-img{
+    width: 80%;
+    height: 300px;
+}
+}
